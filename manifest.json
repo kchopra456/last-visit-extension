@@ -1,0 +1,16 @@
+{
+  "name": "Show Page Visit History",
+  "description": "Shows the last visit to webpage",
+  "version": "0.1",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "lastVisit.html",
+    "default_icon": "psychology.png"
+  },
+  "permissions": [
+    "history",
+    "scripting",
+    "activeTab",
+    "tabs"
+  ]
+}
